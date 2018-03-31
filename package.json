@@ -4,7 +4,7 @@
   "description": "A basic boilerplate to setup ES6 NPM modules",
   "main": "index.js",
   "scripts": {
-    "test": "npx babel-node test/run.js",
+    "test": "npm run compile && npx babel-node test/run.js",
     "compile": "./node_modules/.bin/babel -d lib/ src/",
     "prepublishOnly": "npm run compile"
   },
