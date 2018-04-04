@@ -1,7 +1,7 @@
 {
-  "name": "playground",
+  "name": "repo-name",
   "version": "1.0.0",
-  "description": "Just a playground. Don't take things to seriously",
+  "description": "Basic boilerplate to start npm projects",
   "main": "index.js",
   "scripts": {
     "test": "npx babel-node test/run.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arxiu/playground.git"
+    "url": "git+https://github.com/name-of-user-or-oranization/repo-name.git"
   },
   "keywords": [
     "npm",
@@ -18,12 +18,12 @@
     "es6",
     "boilerplate"
   ],
-  "author": "Xavi Vives <xavings@gmail.com> (http://arxiu.com/index)",
+  "author": "Xavi Vives <xavings@gmail.com> (http://name-of-user-or-oranization.com/index)",
   "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/arxiu/playground/issues"
+    "url": "https://github.com/name-of-user-or-oranization/repo-name/issues"
   },
-  "homepage": "https://github.com/arxiu/playground#readme",
+  "homepage": "https://github.com/name-of-user-or-oranization/repo-name#readme",
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
